@@ -23,6 +23,6 @@ moved {
 }
 
 moved {
-    from = local_sensitive_file.local_file_sensitive_m
+    from = local_sensitive_file.local_file_sensitive_mod
     to = local_sensitive_file.local_file_sensitive_m
 }
