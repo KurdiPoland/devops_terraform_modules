@@ -17,12 +17,12 @@ resource "local_sensitive_file" "local_file_sensitive_m" {
     
 }
 
-#moved {
-#    from = local_file.local_files_mod
-#    to = local_file.local_files_m
-#}
-#
-#moved {
-#    from = local_sensitive_file.local_file_sensitive_mod
-#    to = local_sensitive_file.local_file_sensitive_m
-#}
+moved {
+    from = local_file.local_files_mod
+    to = local_file.local_files_m
+}
+
+moved {
+    from = local_sensitive_file.local_file_sensitive_mod
+    to = local_sensitive_file.local_file_sensitive_m
+}
