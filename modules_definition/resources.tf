@@ -7,7 +7,7 @@ resource "local_file" "local_files_mod" {
     file_permission = var.permission
 } 
 
-resource "local_file_sensitive" "local_file_sensitive_mod" {
+resource "local_sensitive_file" "local_file_sensitive_mod" {
 
     count = var.is_sensitive ? 1 : 0
 
